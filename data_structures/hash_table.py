@@ -399,4 +399,4 @@ class OpenAddressing(MutableMapping):
 
 
 def next_2_power(num: int) -> int:
-    return num.bit_length()
+    return math.pow(2, num.bit_length())
